@@ -1,3 +1,10 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Math-Magicians
+Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+
+This project is part of the Microverse curriculum Module 3 Block 1. The main objective is about building your web application using React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
