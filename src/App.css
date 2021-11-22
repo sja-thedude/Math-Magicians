@@ -1,3 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Harmattan', sans-serif;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:
+    'Harmattan',
+    'Courier New',
+    monospace;
+}
+
 .App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  height: 100vh;
+}
+
+#calculator {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(100px, auto) repeat(5, 60px);
+}
+
+#display {
+  grid-column: 1 / -1;
+  background: #858693;
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: right;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 1px solid rgb(175, 173, 173);
+  background: #c7c6c6;
+  outline: none;
+}
+
+button:hover {
+  background: rgba(144, 166, 187, 0.75);
+  background: rgba(223, 231, 238, 0.75);
+}
+
+#zero {
+  grid-column: span 2;
+}
+
+#div,
+#mul,
+#sub,
+#add,
+#equal {
+  background: #e6873a;
+}
+
+#div:hover,
+#mul:hover,
+#sub:hover,
+#add:hover,
+#equal:hover {
+  background: #fcae6e;
 }
