@@ -6,7 +6,7 @@ class Button extends Component {
     const { bId, bName } = this.props;
 
     return (
-          <button id={bId} type="button">{bName}</button>
+      <button id={bId} type="button">{bName}</button>
     );
   }
 }

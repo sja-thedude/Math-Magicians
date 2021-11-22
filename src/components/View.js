@@ -4,9 +4,9 @@ import React, { Component } from 'react';
 class View extends Component {
   render() {
     const { vId, currValue } = this.props;
-    
+
     return (
-          <div id={vId}>{currValue}</div>
+      <div id={vId}>{currValue}</div>
     );
   }
 }
