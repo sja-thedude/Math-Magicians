@@ -40,8 +40,6 @@ In the project directory, you can run:
 
 ### `npm run build` fails to minify
 
-```
-
 ## Authors
 
 👤 **Syeda Juveria Afreen**
