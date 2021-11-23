@@ -24,7 +24,7 @@ class Calculator extends Component {
 
       return (
         <div id="calculator">
-          <View id="display" total={total} next={next} operation={operation} />
+          <View vId="display" total={total} next={next} operation={operation} />
           <Button bId="clear" bName="AC" handleClick={this.handleClick} />
           <Button bId="del" bName="+/-" handleClick={this.handleClick} />
           <Button bId="del" bName="%" handleClick={this.handleClick} />

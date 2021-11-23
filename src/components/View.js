@@ -4,11 +4,11 @@ import React, { Component } from 'react';
 class View extends Component {
   render() {
     const {
-      id, total, next, operation,
+      vId, total, next, operation,
     } = this.props;
 
     return (
-      <div id={id}>
+      <div id={vId}>
         {total}
         {operation}
         {next}
