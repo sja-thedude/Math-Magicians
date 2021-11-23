@@ -3,10 +3,16 @@ import React, { Component } from 'react';
 
 class Button extends Component {
   render() {
-    const { bId, bName } = this.props;
+    const { bId, bName, handleClick } = this.props;
 
     return (
-      <button id={bId} type="button">{bName}</button>
+      <button
+        id={bId}
+        type="button"
+        onClick={() => handleClick(bName)}
+      >
+        {bName}
+      </button>
     );
   }
 }

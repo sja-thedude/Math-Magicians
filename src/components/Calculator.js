@@ -1,29 +1,34 @@
 import React, { Component } from 'react';
 import View from './View';
 import Button from './Button';
+import calculate from '../logic/calculate';
 
 class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currValue: '0',
+      total: '0',
+      next: null,
+      operation: null,
     };
+
+    this.handleClick = this.handleClick.bind(this);
   }
 
-    handleClick = () => {
-
+    handleClick = (value) => {
+      this.setState((prevState) => calculate(prevState, value));
     }
 
     render() {
-      const { currValue } = this.state;
+      const { total, next, operation } = this.state;
 
       return (
         <div id="calculator">
-          <View vId="display" currValue={currValue} />
+          <View id="display" total={total} next={next} operation={operation} />
           <Button bId="clear" bName="AC" handleClick={this.handleClick} />
           <Button bId="del" bName="+/-" handleClick={this.handleClick} />
           <Button bId="del" bName="%" handleClick={this.handleClick} />
-          <Button bId="div" bName="/" handleClick={this.handleClick} />
+          <Button bId="div" bName="÷" handleClick={this.handleClick} />
           <Button bId="seven" bName="7" handleClick={this.handleClick} />
           <Button bId="eight" bName="8" handleClick={this.handleClick} />
           <Button bId="nine" bName="9" handleClick={this.handleClick} />

@@ -3,10 +3,16 @@ import React, { Component } from 'react';
 
 class View extends Component {
   render() {
-    const { vId, currValue } = this.props;
+    const {
+      id, total, next, operation,
+    } = this.props;
 
     return (
-      <div id={vId}>{currValue}</div>
+      <div id={id}>
+        {total}
+        {operation}
+        {next}
+      </div>
     );
   }
 }
