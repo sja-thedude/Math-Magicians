@@ -1,0 +1,20 @@
+.page-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.page-quote h3 {
+  font-size: 1.4rem;
+  width: 60%;
+  margin: 0;
+  text-align: center;
+}
+
+.page-quote p {
+  width: 60%;
+  margin: 0;
+  text-align: center;
+  padding: 0 20px;
+}
