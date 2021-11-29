@@ -5,6 +5,14 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 
 This project is part of the Microverse curriculum Module 3 Block 1. The main objective is about building your web application using React.
 
+![screenshot](img/pic1.png)
+![screenshot](img/pic2.png)
+![screenshot](img/pic3.png)
+
+## Live
+
+[Live-Link](https://friendly-jones-704b95.netlify.app/)
+
 ## Built With
 
 - Html/Css
