@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 const QuoteData = () => {
   const quotes = [
     {

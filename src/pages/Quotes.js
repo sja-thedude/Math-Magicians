@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
 import QuoteData from '../components/QuoteData';
 import '../styles/Quotes.css';

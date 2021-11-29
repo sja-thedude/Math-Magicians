@@ -9,6 +9,10 @@ This project is part of the Microverse curriculum Module 3 Block 1. The main obj
 ![screenshot](img/pic2.png)
 ![screenshot](img/pic3.png)
 
+## Live
+
+[Live-Link](https://friendly-jones-704b95.netlify.app/)
+
 ## Built With
 
 - Html/Css
