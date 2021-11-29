@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable react/prop-types, react/prefer-stateless-function */
 import React, { Component } from 'react';
 
