@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test screenshots for all components matches Button snapshot 1`] = `
+<button
+  onClick={[Function]}
+  type="button"
+/>
+`;
+
+exports[`test screenshots for all components matches Calculator snapshot 1`] = `
+<div
+  id="calculator"
+>
+  <div
+    id="display"
+  >
+    0
+  </div>
+  <button
+    id="clear"
+    onClick={[Function]}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    id="del"
+    onClick={[Function]}
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    id="del"
+    onClick={[Function]}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    id="div"
+    onClick={[Function]}
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    id="seven"
+    onClick={[Function]}
+    type="button"
+  >
+    7
+  </button>
+  <button
+    id="eight"
+    onClick={[Function]}
+    type="button"
+  >
+    8
+  </button>
+  <button
+    id="nine"
+    onClick={[Function]}
+    type="button"
+  >
+    9
+  </button>
+  <button
+    id="mul"
+    onClick={[Function]}
+    type="button"
+  >
+    x
+  </button>
+  <button
+    id="four"
+    onClick={[Function]}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    id="five"
+    onClick={[Function]}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    id="six"
+    onClick={[Function]}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    id="sub"
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <button
+    id="one"
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    id="two"
+    onClick={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    id="three"
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    id="add"
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+  <button
+    id="zero"
+    onClick={[Function]}
+    type="button"
+  >
+    0
+  </button>
+  <button
+    id="decimal"
+    onClick={[Function]}
+    type="button"
+  >
+    .
+  </button>
+  <button
+    id="equal"
+    onClick={[Function]}
+    type="button"
+  >
+    =
+  </button>
+</div>
+`;
+
+exports[`test screenshots for all components matches Footer snapshot 1`] = `
+<footer>
+  Math Magicians © Copyright  
+  2021
+  , audited by Syeda Juveria Afreen.
+</footer>
+`;
+
+exports[`test screenshots for all components matches Header snapshot 1`] = `
+<header>
+  <a
+    className="link-logo"
+    href="/"
+    onClick={[Function]}
+  >
+    <h1>
+      Math Magicians
+    </h1>
+  </a>
+</header>
+`;
+
+exports[`test screenshots for all components matches Home snapshot 1`] = `
+<section
+  className="home-page"
+>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <p>
+    An electronic calculator is typically a portable electronic device used to perform calculations, ranging from basic arithmetic to complex mathematics.
+    <br />
+    The first solid-state electronic calculator was created in the early 1960s. Pocket-sized devices became available in the 1970s, especially after the Intel 4004, the first microprocessor, was developed by Intel for the Japanese calculator company Busicom. They later became used commonly within the petroleum industry (oil and gas).
+    <br />
+    Modern electronic calculators vary from cheap, give-away credit-card-sized models to sturdy desktop models with built-in printers. They became popular in the mid-1970s as the incorporation of integrated circuits reduced their size and cost. By the end of that decade, prices had dropped to the point where a basic calculator was affordable to most and they became common in schools.
+    <br />
+    Computer operating systems as far back as early Unix have included interactive calculator programs such as dc and hoc, and calculator functions are included in almost all personal digital assistant (PDA) type devices, the exceptions being a few dedicated address book and dictionary devices.
+    <br />
+    In addition to general purpose calculators, there are those designed for specific markets. For example, there are scientific calculators which include trigonometric and statistical calculations. Some calculators even have the ability to do computer algebra. Graphing calculators can be used to graph functions defined on the real line, or higher-dimensional Euclidean space. As of 2016, basic calculators cost little, but scientific and graphing models tend to cost more.
+  </p>
+</section>
+`;
+
+exports[`test screenshots for all components matches Mathematics snapshot 1`] = `
+<section
+  className="page-calculator"
+>
+  <div
+    className="con-calculator"
+  >
+    <h2>
+      Let's do some math!
+    </h2>
+  </div>
+  <div
+    id="calculator"
+  >
+    <div
+      id="display"
+    >
+      0
+    </div>
+    <button
+      id="clear"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      id="del"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      id="del"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      id="div"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      id="seven"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      id="eight"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      id="nine"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      id="mul"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      id="four"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      id="five"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      id="six"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      id="sub"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      id="one"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      id="two"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      id="three"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      id="add"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      id="zero"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      id="decimal"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      id="equal"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</section>
+`;
+
+exports[`test screenshots for all components matches Navbar snapshot 1`] = `
+<nav>
+  <header>
+    <a
+      className="link-logo"
+      href="/"
+      onClick={[Function]}
+    >
+      <h1>
+        Math Magicians
+      </h1>
+    </a>
+  </header>
+  <ul
+    className="list-nav"
+  >
+    <li
+      className="item-nav"
+    >
+      <a
+        className="n-link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="item-nav"
+    >
+      <a
+        className="n-link"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      className="item-nav"
+    >
+      <a
+        className="n-link"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`test screenshots for all components matches Quote snapshot 1`] = `
+<section
+  className="page-quote"
+>
+  <p>
+    
+  </p>
+  <h3>
+    - 
+  </h3>
+</section>
+`;
+
+exports[`test screenshots for all components matches View snapshot 1`] = `<div />`;
