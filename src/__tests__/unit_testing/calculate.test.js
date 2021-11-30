@@ -1,4 +1,5 @@
 import calculate from '../../logic/calculate';
+
 describe('testing the calculate function ', () => {
   const obj = { total: null, next: null, operation: null };
   test('test addition', () => {
