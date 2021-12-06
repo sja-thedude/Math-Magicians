@@ -11,7 +11,8 @@ This project is part of the Microverse curriculum Module 3 Block 1. The main obj
 
 ## Live
 
-[Live-Link](https://friendly-jones-704b95.netlify.app/)
+[Live-Link Netlify](https://friendly-jones-704b95.netlify.app/)
+[Live-Link Heroku](https://m-magicians.herokuapp.com/)
 
 ## Built With
 
